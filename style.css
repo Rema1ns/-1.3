@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "TT Lakes";
+    width: 100%;
+    background-color: white;
+}
+
+.page-header {
+    width: auto;
+    height: 88px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    padding-right: 16px;
+    padding-left: 16px;
+    align-items: center;
+    border-bottom: 1px solid #D9FFF5;
+}
+
+.version-for-ipad {
+    display: flex;
+    width: 152px;
+    margin-right: 20px;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+.version-for-pc {
+    display: none;
+}
+
+
+.block__menu-icon--burger {
+    margin-left: 0;
+    margin-right: 16px;
+}
+
+.block__menu-icon--CPS {
+    margin-right: auto;
+    margin-right: 0.73px;
+}
+.block__menu-icon--line_first {
+    margin: 20px;
+    margin-left: 4px;
+}
+.block__menu-icon--line {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.block__menu-icon--options {
+    margin-left: 20px;
+    margin-right: 16px;
+}
+
+.block__menu-icon--search {
+    align-content: flex-end;
+    margin-right: 0;
+}
+
+.page-main {
+    width: 769px;
+    margin-right: 15px;
+    background-color: #f8f8f8;
+
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 0px;
+}
+.title__button {
+    margin-top: 0px;
+}
+
+
+.title__text {
+    margin-left: 12px;
+}
+.block__text_size_s {
+    font-size: 14px;
+    line-height: 18px;
+}
+.block__text_size_m {
+    font-size: 16px;
+    line-height: 24px;
+}
+.block__text_size_l {
+    font-size: 24px;
+    line-height: 40px;
+}
+.block {
+    overflow: auto;
+    -ms-overflow-style: none;
+    width: auto;
+    margin-left: 16px;
+    margin-top: 24px;
+    white-space: nowrap;
+    display: flex;
+}
+.block::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.block__list {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    padding: 8px;
+    padding-left: 16.67px;
+}
+.block__list--active {
+    background: #FFFFFF;
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+}
+
+.block__text {
+    overflow: hidden;
+    max-width: 288px;
+    height: 90px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 0;
+
+}
+.block__gradient {
+    position: absolute;
+    left: 95.54%;
+    right: 2%;
+    top: 29.51%;
+    bottom: 55.56%;
+    width: 24px;
+    height: 40px;
+
+    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+}
+.next {
+    height: 24px;
+    margin: 16px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+.block__text_next {
+    margin: 16px;
+}
+.block__photo {
+    margin-top: 2px;
+    width: 100%;
+    margin-bottom: 12px;
+    max-width: 320px;
+    margin-right: 25px;
+
+
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+@media (max-width: 769px) {
+    .version-for-ipad {
+        display: none;
+    }
+    .block__menu-icon--line_first {
+        display: none;
+    }
+    .block__menu-icon--CPS {
+        margin-right: auto;
+    }
+    .page-main {
+        width: 100%;
+        background-color: #f8f8f8;
+    }
+
+}
+@media (min-width: 769px) {
+    .next {
+        margin-bottom: 54px;
+    }
+    .block__text {
+        max-width: 312px;
+        height: 160px;
+        margin-left: 24px;
+    }
+    .block__photo {
+        margin-top: 2px;
+        width: 100%;
+        margin-bottom: 12px;
+        max-width: 360px;
+        height: 200px;
+        margin-right: 25px;
+        margin-left: auto;
+    }
+    .block {
+        margin-left: 24px;
+    }
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 32px;
+    }
+}
+
+@media (min-width: 1120px) {
+    .block__gradient {
+        display: none;
+    }
+    .page-header {
+        display: none;
+    }
+    .page-main {
+        width: 100%;
+    }
+    .block__photo {
+        max-width: 531.35px;
+        height: 300px;
+    }
+    .block__text {
+        max-width: 490px;
+        height: 160px;
+        margin-left: 34px;
+        margin-right: 36px;
+    }
+    .block {
+        flex-wrap: wrap;
+    }
+    .info {
+        margin-top: 19.22px;
+    }
+    .title {
+        padding-top: 42px;
+    }
+    .next {
+        margin-left: 40px;
+    }
+    .version-for-pc {
+        display: flex;
+        margin-right: 32px;
+        align-self: center;
+        color: #1B1C21
+    }
+    .version-for-pc__block {
+        display: flex;
+        margin-left: auto;
+    }
+}
