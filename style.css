@@ -8,7 +8,7 @@ body {
     background-color: white;
 }
 
-.page-header {
+.header {
     width: auto;
     height: 88px;
     background: #ffffff;
@@ -67,7 +67,7 @@ body {
     margin-right: 0;
 }
 
-.page-main {
+.main {
     width: 769px;
     margin-right: 15px;
     background-color: #f8f8f8;
@@ -147,7 +147,7 @@ body {
 
     background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
 }
-.next {
+.button_next {
     height: 24px;
     margin: 16px;
     margin-bottom: 0px;
@@ -182,14 +182,14 @@ body {
     .block__menu-icon--CPS {
         margin-right: auto;
     }
-    .page-main {
+    .main {
         width: 100%;
         background-color: #f8f8f8;
     }
 
 }
 @media (min-width: 769px) {
-    .next {
+    .button_next {
         margin-bottom: 54px;
     }
     .block__text {
@@ -220,10 +220,10 @@ body {
     .block__gradient {
         display: none;
     }
-    .page-header {
+    .header {
         display: none;
     }
-    .page-main {
+    .main {
         width: 100%;
     }
     .block__photo {
@@ -245,7 +245,7 @@ body {
     .title {
         padding-top: 42px;
     }
-    .next {
+    .button_next {
         margin-left: 40px;
     }
     .version-for-pc {
