@@ -76,6 +76,14 @@ body {
     margin: 20px;
     margin-left: 4px;
 }
+
+.menu-icon__CPS {
+    margin-right: auto;
+    background-image: url("ic/Group.svg");
+    width: 96.55px;
+    height: 50.81px;
+}
+
 /* иконки кончаются */
 
 .menu-icon {
@@ -85,11 +93,6 @@ body {
     padding-left: 16px;
     align-items: center;
     border-bottom: 1px solid #D9FFF5;
-}
-
-.menu-icon__CPS {
-    margin-right: auto;
-
 }
 
 
