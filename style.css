@@ -3,7 +3,7 @@
     margin: 0;
 }
 body {
-    font-family: "TT Lakes";
+    font-family: 'TT Lakes', sans-serif;
     width: 100%;
     background-color: white;
 }
@@ -85,18 +85,6 @@ body {
     padding-left: 16px;
     align-items: center;
     border-bottom: 1px solid #D9FFF5;
-}
-
-.version-for-ipad {
-    display: flex;
-    width: 152px;
-    margin-right: 20px;
-    margin-left: auto;
-    justify-content: space-between;
-}
-
-.version-for-pc {
-    display: none;
 }
 
 .menu-icon__CPS {
@@ -220,6 +208,14 @@ body {
     margin-top: 24px;
 }
 
+.version-for-ipad {
+    display: flex;
+    width: 152px;
+    margin-right: 20px;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
 @media (max-width: 769px) {
     .version-for-ipad {
         display: none;
@@ -236,6 +232,7 @@ body {
     }
 
 }
+
 @media (min-width: 769px) {
     .button_next {
         margin-bottom: 54px;
@@ -267,6 +264,10 @@ body {
         flex-wrap: wrap;
         margin-top: 32px;
     }
+}
+
+.version-for-pc {
+    display: none;
 }
 
 @media (min-width: 1120px) {
