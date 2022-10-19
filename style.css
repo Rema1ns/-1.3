@@ -47,7 +47,7 @@ body {
     margin-right: 16px;
 }
 .menu-icon__search {
-    background-image: url("ic/search.svg");
+    background-image: url("ic/looks.svg");
     background-repeat: no-repeat;
     background-position: center;
     align-content: flex-end;
