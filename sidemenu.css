@@ -34,6 +34,7 @@ header {
 .menu-icon__background:hover {
     opacity: 0.3;
     transition-duration: 0.5s;
+    transform: scale(0.9);
 }
 
 .menu-icon__CPS {
@@ -44,7 +45,7 @@ header {
     margin-left: 16.73px;
 }
 .menu-icon__search {
-    background-image: url("ic/looks.svg");
+    background-image: url("ic/search-sidebar.svg");
     background-repeat: no-repeat;
     background-position: center;
     align-content: flex-end;
