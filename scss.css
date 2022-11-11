@@ -612,6 +612,11 @@
   border: none;
 }
 
+@media (min-width: 1440px) {
+  .title__button {
+    top: 45px;
+  }
+}
 .content__list--item {
   margin: 24px 0 0 0px;
   padding: 0 0 0 24px;
@@ -923,7 +928,7 @@
 }
 @media (min-width: 1440px) {
   .brands__background {
-    width: 240px;
+    width: 235px;
     height: 72px;
     background-color: white;
     border: 1px solid #EAEAEA;
