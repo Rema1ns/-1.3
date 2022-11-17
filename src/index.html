@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <!-------------------- МОДАЛЬНЫЕ ОКНА ------------------------>
+    <div class="form-chat">
+            <div class="form__overlay"></div>
+            <nav class="title__button--active"></nav>
+            <button class="menu-icon__background modal-icon__cancel "></button>
+            <form action="#" method="post" enctype="multipart/form-data" class="form__body">
+                <h1 class="form__title">Обратная связь</h1>
+                <div class="form__item">
+                    <input type="text" name="username" placeholder="Имя" class="form__input">
+                </div>
+                <div class="form__item">
+                    <input type="tel" name="phone" placeholder="Телефон" class="form__input">
+                </div>
+                <div class="form__item">
+                    <input type="email" name="e-mail" placeholder="Электронная почта" class="form__input">
+                </div>
+                <div class="form__item">
+                    <textarea name="text" placeholder="Сообщение" class="form__input"></textarea>
+                </div>
+                <div class="form__text">Нажимая “отправить”, вы даете согласие на <a class="form__text--political">обработку персональных данных</a> и соглашаетесь
+                    с нашей <a class="form__text--political">политикой конфиденциальности</a></div>
+            </form>
+            <button class="button__output">
+                <p>Отправить</p>
+                <div class="price__button--arrow"></div>
+            </button>
+        </div>
+    <div class="form-call">
+        <div class="form__overlay"></div>
+        <nav class="title__button--active"></nav>
+        <button class="menu-icon__background modal-icon__cancel "></button>
+        <form action="#" method="post" enctype="multipart/form-data" class="form__body">
+            <h1 class="form__title">Заказать звонок</h1>
+            <div class="form__item">
+                <input type="tel" name="phone" placeholder="Телефон" class="form__input">
+            </div>
+            <div class="form__text">Нажимая “отправить”, вы даете согласие на <a class="form__text--political">обработку персональных данных</a> и соглашаетесь
+                с нашей <a class="form__text--political">политикой конфиденциальности</a></div>
+        </form>
+        <button class="button__output">
+            <p>Отправить</p>
+            <div class="price__button--arrow"></div>
+        </button>
+    </div>
+    <!-------------------- БОКОВОЕ МЕНЮ ------------------------>
+     <nav class="side-panel">
+        <header class="header__side-panel">
+            <div class="menu-icon">
+                <button class="menu-icon__background menu-icon__cancel"></button>
+                <div class="menu-icon__CPS"></div>
+                <button class="menu-icon__background menu-icon__search"></button>
+            </div>
+        </header>
+        <main class="side-panel__body">
+            <ul class="content__list block__text--size--m">
+                <li class="content__list--item content__list--item-active">Ремонт техники</li>
+                <li class="content__list--item">Услуги и сервисы</li>
+                <li class="content__list--item">Корпоративным клиентам</li>
+                <li class="content__list--item">Продавцам техники</li>
+                <li class="content__list--item">Партнерам</li>
+                <li class="content__list--item">Производителям</li>
+                <li class="content__list--item">Наши сервисные центры</li>
+                <li class="content__list--item">контакты</li>
+            </ul>
+            <div class="contact">
+                <div>
+                    <button class="contact__icons menu-icon__background menu-icon__call"></button>
+                    <button class="contact__icons menu-icon__background menu-icon__chat"></button>
+                    <button class="contact__icons menu-icon__background menu-icon__profile"></button>
+                </div>
+                <div class="list_name__text">
+                    mail@cps.com
+                </div>
+                <div class="contact__phone-number">
+                    <b>
+                        8 800 890 8900
+                    </b>
+                </div>
+                <div class="language list_name__text">
+                    <div class="language__ru">RU</div>
+                    <div class="language__en">EN</div>
+                    <div class="language__ch">CH</div>
+                </div>
+            </div>
+        </main>
+     </nav>
+    <!---------------------- шапка -------------------------->
+     <div class="overlay"></div>
+     <div class="body">
+        <header class="header">
+            <div class="menu-icon">
+                <button class="menu-icon__background menu_icon__burger"></button>
+                <div class="menu-icon__line_first"></div>
+                <div class="menu-icon__CPS"></div>
+                <!-- иконки на планшетах -->
+                <div class="version-for-ipad">
+                    <button class="menu-icon__background menu-icon__call"></button>
+                    <button class="menu-icon__background menu-icon__chat"></button>
+                    <button class="menu-icon__background menu-icon__profile"></button>
+                </div>
+                <button class="menu-icon__background menu-icon__line"></button>
+                <button class="menu-icon__background menu-icon__settings"></button>
+                <button class="menu-icon__background menu-icon__search"></button>
+            </div>
+        </header>
+    <!------------------ ОСНОВНОЙ КОНТЕНТ ---------------------->
+        <main class="main">
+            <div class="title">
+                <div class="title__button"></div>
+                <h1>
+                    <div class="title__text block__text--size--l">Услуги и сервисы</div>
+                </h1>
+                <div class="version-for-pc__block">
+                    <div class="version-for-pc block_text_size_m"  style="margin-right: 0px">
+                        Оставить заявку
+                    </div>
+                        <button class="menu-icon__background menu-icon__settings version-for-pc"></button>
+
+                        <div class="version-for-pc block_text_size_m" style="margin-right: 9px">
+                            Статус ремонта
+                        </div>
+                    <div>
+                        <button class="menu-icon__background menu-icon__search version-for-pc"></button>
+                    </div>
+                </div>
+            </div>
+                    <ul class="block block__text--size--m text__gray ">
+                        <li class="block__list block__list--active">Ремонтируемые бренды</li>
+                        <li class="block__list">Ремонтируемые устройства</li>
+                        <li class="block__list">Цены и услуги</li>
+                        <li class="block__list">Адреса сервисных центров</li>
+                        <li class="block__list">Специальные цены</li>
+                        <li class="block__list">Отзывы</li>
+                    </ul>
+            <section class="content">
+                <div>
+                    <p class="block__text block__text_size_xs">
+                        Мы являемся авторизованным сервисным центром по ремонту техники Dell.
+                        Только у нас вы можете отремонтировать свой ноутбук Dell с
+                        официальной гарантией производителя.<br>
+                        <br>
+                        Мы успешно работаем с 1992 года и заслужили репутацию надежного
+                        партнера, что подтверждает большое количество постоянных клиентов.
+                        Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь,
+                        советуют нас родным и близким.
+                    </p>
+                    <button class="button_next">
+                        <img class="arrowButton" src="img/ic/icon.svg" alt="стрелки">
+                        <div class="block__text_next block__text--close">
+                            <p><b>Читать далее</b></p>
+                        </div>
+                    </button>
+                </div>
+                <img class="content__photo" src="img/photo.jpg" alt="">
+            </section>
+
+            <!--------------------- слайдер бренды ---------------->
+                <div class="brands__for-pc-version">
+                    <div class="brands__header text__gray block__text--size--m">
+                        Ремонт техники различных брендов
+                    </div>
+                    <div class="swiper__position">
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide brands__background slide__lenovo">
+                                    <div class="swiper__button"></div>
+                                </div>
+                                <div class="swiper-slide brands__background slide__samsung">
+                                    <div class="swiper__button"></div>
+                                </div>
+                                <div class="swiper-slide brands__background slide__apple">
+                                    <div class="swiper__button"></div>
+                                </div>
+                                <div class="swiper-slide brands__background slide__VS">
+                                    <div class="swiper__button"></div>
+                                </div>
+                                <div class="swiper-slide brands__background slide__bosch">
+                                    <div class="swiper__button"></div>
+                                </div>
+                                <div class="swiper-slide brands__background slide__hp">
+                                    <div class="swiper__button"></div>
+                                </div>
+                                <div class="swiper-slide brands__background slide__acer">
+                                    <div class="swiper__button"></div>
+                                </div>
+                                <div class="swiper-slide brands__background slide__sony">
+                                    <div class="swiper__button"></div>
+                                </div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="content-area" style="padding-right: 0">
+                        <div class="brands__background slide__lenovo">
+                            <div class="swiper__button"></div>
+                        </div>
+                        <div class="brands__background slide__samsung">
+                            <div class="swiper__button"></div>
+                        </div>
+                        <div class="brands__background slide__apple">
+                            <div class="swiper__button"></div>
+                        </div>
+                        <div class="brands__background slide__VS">
+                            <div class="swiper__button"></div>
+                        </div>
+                        <div class="brands__background slide__bosch">
+                            <div class="swiper__button"></div>
+                        </div>
+                        <div class="brands__background slide__hp">
+                            <div class="swiper__button"></div>
+                        </div>
+                        <div class="brands__background slide__acer">
+                            <div class="swiper__button"></div>
+                        </div>
+                        <div class="brands__background slide__sony">
+                            <div class="swiper__button"></div>
+                        </div>
+                        <div class="brands__background slide__lenovo">
+                            <div class="swiper__button"></div>
+                        </div>
+                        <div class="brands__background slide__samsung">
+                            <div class="swiper__button"></div>
+                        </div>
+                        <div class="brands__background slide__apple">
+                            <div class="swiper__button"></div>
+                        </div>
+                    </div>
+                    <button class="brands__button--open">
+                        <div class="brands__button--arrow--open"></div>
+                        <div>
+                            <div class="block__text--size--m">Показать все</div>
+                        </div>
+                    </button>
+                </div>
+            <!--------------------- слайдер бренды открытые ---------------->
+            <div class="brands__for-pc-version--open">
+                <div class="brands__header text__gray block__text--size--m">
+                    Ремонт техники различных брендов
+                </div>
+                <div class="swiper__position">
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide brands__background slide__lenovo">
+                                <div class="swiper__button"></div>
+                            </div>
+                            <div class="swiper-slide brands__background slide__samsung">
+                                <div class="swiper__button"></div>
+                            </div>
+                            <div class="swiper-slide brands__background slide__apple">
+                                <div class="swiper__button"></div>
+                            </div>
+                            <div class="swiper-slide brands__background slide__VS">
+                                <div class="swiper__button"></div>
+                            </div>
+                            <div class="swiper-slide brands__background slide__bosch">
+                                <div class="swiper__button"></div>
+                            </div>
+                            <div class="swiper-slide brands__background slide__hp">
+                                <div class="swiper__button"></div>
+                            </div>
+                            <div class="swiper-slide brands__background slide__acer">
+                                <div class="swiper__button"></div>
+                            </div>
+                            <div class="swiper-slide brands__background slide__sony">
+                                <div class="swiper__button"></div>
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="brands-window__open">
+                    <div class="brands__background slide__lenovo">
+                        <div class="swiper__button"></div>
+                    </div>
+                    <div class="brands__background slide__samsung">
+                        <div class="swiper__button"></div>
+                    </div>
+                    <div class="brands__background slide__apple">
+                        <div class="swiper__button"></div>
+                    </div>
+                    <div class="brands__background slide__VS">
+                        <div class="swiper__button"></div>
+                    </div>
+                    <div class="brands__background slide__bosch">
+                        <div class="swiper__button"></div>
+                    </div>
+                    <div class="brands__background slide__hp">
+                        <div class="swiper__button"></div>
+                    </div>
+                    <div class="brands__background slide__acer">
+                        <div class="swiper__button"></div>
+                    </div>
+                    <div class="brands__background slide__sony">
+                        <div class="swiper__button"></div>
+                    </div>
+                    <div class="brands__background slide__lenovo">
+                        <div class="swiper__button"></div>
+                    </div>
+                    <div class="brands__background slide__samsung">
+                        <div class="swiper__button"></div>
+                    </div>
+                    <div class="brands__background slide__apple">
+                        <div class="swiper__button"></div>
+                    </div>
+                </div>
+                <button class="brands__button--close">
+                    <div class="brands__button--arrow--close"></div>
+                    <div>
+                        <div class="block__text--size--m">Скрыть</div>
+                    </div>
+                </button>
+            </div>
+            <!---------------------- слайдер техники -------------->
+            <div class="brands__header text__gray block__text--size--m">
+                Ремонт различных видов техники
+            </div>
+                <div class="swiper__position">
+                    <div class="swiper swiper__technic">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide technic__background">
+                                <p class="block__text--size--m ">Ремонт ноутбуков</p>
+                                <div class="swiper__button-technic"></div>
+                            </div>
+                            <div class="swiper-slide technic__background">
+                                <p class="block__text--size--m ">Ремонт планшет</p>
+                                <div class="swiper__button-technic"></div>
+                            </div>
+                            <div class="swiper-slide technic__background">
+                                <p class="block__text--size--m ">Ремонт ПК</p>
+                                <div class="swiper__button-technic"></div>
+                            </div>
+                            <div class="swiper-slide technic__background">
+                                <p class="block__text--size--m ">Ремонт мониторов</p>
+                                <div class="swiper__button-technic"></div>
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            <div class="content-area">
+                <div class="technic__background">
+                    <p class="block__text--size--m">Ремонт ноутбуков</p>
+                    <div class="swiper__button-technic"></div>
+                </div>
+                <div class="technic__background">
+                    <p class="block__text--size--m">Ремонт планшет</p>
+                    <div class="swiper__button-technic"></div>
+                </div>
+                <div class="technic__background">
+                    <p class="block__text--size--m">Ремонт ПК</p>
+                    <div class="swiper__button-technic"></div>
+                </div>
+                <div class="technic__background">
+                    <p class="block__text--size--m">Ремонт мониторов</p>
+                    <div class="swiper__button-technic"></div>
+                </div>
+            </div>
+            <button class="brands__button--open">
+                <div class="brands__button--arrow--open"></div>
+                <div>
+                    <div class="block__text--size--m">Показать все</div>
+                </div>
+            </button>
+            <!---------------------- прайс -------------->
+            <div class="brands__header text__gray block__text--size--m">
+                ЦЕНЫ НА УСЛУГИ
+            </div>
+                <div class="swiper__position">
+                    <div class="swiper swiper__price">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide price__background">
+                                <p class="block__text--size--xs text__gray" style="margin-bottom: 4px">Ремонтные услуги</p>
+                                <p class="block__text--size--s" style="margin-bottom: 16px">Тестирование с выдачей технического заключения</p>
+                                <p class="block__text--size--xs text__gray" style="margin-bottom: 4px">Цена</p>
+                                <p class="block__text--size--s" style="margin-bottom: 16px">Бесплатно</p>
+                                <p class="block__text--size--xs text__gray" style="margin-bottom: 4px">Срок</p>
+                                <p class="block__text--size--m" style="margin-bottom: 16px">30-120 мин</p>
+                                <button class="price__swiper-button">
+                                    <p>ЗАКАЗАТЬ</p>
+                                    <div class="price__button--arrow"></div>
+                                </button>
+                            </div>
+                            <div class="swiper-slide price__background">
+                                <p class="block__text--size--xs text__gray" style="margin-bottom: 4px">Ремонтные услуги</p>
+                                <p class="block__text--size--s" style="margin-bottom: 16px">Тестирование с выдачей технического заключения</p>
+                                <p class="block__text--size--xs text__gray" style="margin-bottom: 4px">Цена</p>
+                                <p class="block__text--size--s" style="margin-bottom: 16px">Бесплатно</p>
+                                <p class="block__text--size--xs text__gray" style="margin-bottom: 4px">Срок</p>
+                                <p class="block__text--size--m" style="margin-bottom: 16px">30-120 мин</p>
+                                <button class="price__swiper-button">
+                                    <p>ЗАКАЗАТЬ</p>
+                                    <div class="price__button--arrow"></div>
+                                </button>
+                            </div>
+                            <div class="swiper-slide price__background">
+                                <p class="block__text--size--xs text__gray" style="margin-bottom: 4px">Ремонтные услуги</p>
+                                <p class="block__text--size--s" style="margin-bottom: 16px">Тестирование с выдачей технического заключения</p>
+                                <p class="block__text--size--xs text__gray" style="margin-bottom: 4px">Цена</p>
+                                <p class="block__text--size--s" style="margin-bottom: 16px">Бесплатно</p>
+                                <p class="block__text--size--xs text__gray" style="margin-bottom: 4px">Срок</p>
+                                <p class="block__text--size--m" style="margin-bottom: 16px">30-120 мин</p>
+                                <button class="price__swiper-button">
+                                    <p>ЗАКАЗАТЬ</p>
+                                    <div class="price__button--arrow"></div>
+                                </button>
+                            </div>
+                            <div class="swiper-slide price__background">
+                                <p class="block__text--size--xs text__gray" style="margin-bottom: 4px">Ремонтные услуги</p>
+                                <p class="block__text--size--s" style="margin-bottom: 16px">Тестирование с выдачей технического заключения</p>
+                                <p class="block__text--size--xs text__gray" style="margin-bottom: 4px">Цена</p>
+                                <p class="block__text--size--s" style="margin-bottom: 16px">Бесплатно</p>
+                                <p class="block__text--size--xs text__gray" style="margin-bottom: 4px">Срок</p>
+                                <p class="block__text--size--m" style="margin-bottom: 16px">30-120 мин</p>
+                                <button class="price__swiper-button">
+                                    <p>ЗАКАЗАТЬ</p>
+                                    <div class="price__button--arrow"></div>
+                                </button>
+                            </div>
+                            <div class="swiper-slide price__background">
+                                <p class="block__text--size--xs text__gray" style="margin-bottom: 4px">Ремонтные услуги</p>
+                                <p class="block__text--size--s" style="margin-bottom: 16px">Тестирование с выдачей технического заключения</p>
+                                <p class="block__text--size--xs text__gray" style="margin-bottom: 4px">Цена</p>
+                                <p class="block__text--size--s" style="margin-bottom: 16px">Бесплатно</p>
+                                <p class="block__text--size--xs text__gray" style="margin-bottom: 4px">Срок</p>
+                                <p class="block__text--size--m" style="margin-bottom: 16px">30-120 мин</p>
+                                <button class="price__swiper-button">
+                                    <p>ЗАКАЗАТЬ</p>
+                                    <div class="price__button--arrow"></div>
+                                </button>
+                            </div>
+                            <div class="swiper-slide price__background">
+                                <p class="block__text--size--xs text__gray" style="margin-bottom: 4px">Ремонтные услуги</p>
+                                <p class="block__text--size--s" style="margin-bottom: 16px">Тестирование с выдачей технического заключения</p>
+                                <p class="block__text--size--xs text__gray" style="margin-bottom: 4px">Цена</p>
+                                <p class="block__text--size--s" style="margin-bottom: 16px">Бесплатно</p>
+                                <p class="block__text--size--xs text__gray" style="margin-bottom: 4px">Срок</p>
+                                <p class="block__text--size--m" style="margin-bottom: 16px">30-120 мин</p>
+                                <button class="price__swiper-button">
+                                    <p>ЗАКАЗАТЬ</p>
+                                    <div class="price__button--arrow"></div>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="content-area" style="height: 100%">
+                    <!-----------------------------------------цены----->
+                    <div class="price-title text__gray block__text--size--xs">
+                        <p class="price__name">Ремонтный услуги</p>
+                        <p class="price__money">Цена</p>
+                        <p class="price__time">Срок</p>
+                        <div style="width: 119px"></div>
+                    </div>
+                    <div class="price__window">
+                        <div class="price-row">
+                            <div class="price__name">
+                                Диагностика
+                            </div>
+                            <div class="price__money">
+                                Бесплатно
+                            </div>
+                            <div class="price__time">
+                                30 Мин
+                            </div>
+                            <button class="price__button">
+                                <p>ЗАКАЗАТЬ</p>
+                                <div class="price__button--arrow"></div>
+                            </button>
+                        </div>
+                        <div class="price-row">
+                            <div class="price__name">
+                                Замена дисплея
+                            </div>
+                            <div class="price__money">
+                                1 000 ₽
+                            </div>
+                            <div class="price__time">
+                                30-120 мин
+                            </div>
+                            <button class="price__button">
+                                <p>ЗАКАЗАТЬ</p>
+                                <div class="price__button--arrow"></div>
+                            </button>
+                        </div>
+                        <div class="price-row">
+                            <div class="price__name">
+                                Замена полифонического динамика
+                            </div>
+                            <div class="price__money">
+                                1 000 ₽
+                            </div>
+                            <div class="price__time">
+                                30-120 мин
+                            </div>
+                            <button class="price__button">
+                                <p>ЗАКАЗАТЬ</p>
+                                <div class="price__button--arrow"></div>
+                            </button>
+                        </div>
+                        <div class="price-row">
+                            <div class="price__name">
+                                Тестирование с выдачей технического заключения
+                            </div>
+                            <div class="price__money">
+                                1 000 ₽
+                            </div>
+                            <div class="price__time">
+                                30-120 мин
+                            </div>
+                            <button class="price__button">
+                                <p>ЗАКАЗАТЬ</p>
+                                <div class="price__button--arrow"></div>
+                            </button>
+                        </div>
+                        <div class="price-row">
+                            <div class="price__name">
+                                Замена программного обеспечения
+                            </div>
+                            <div class="price__money">
+                                1 000 ₽
+                            </div>
+                            <div class="price__time">
+                                30-120 мин
+                            </div>
+                            <button class="price__button">
+                                <p>ЗАКАЗАТЬ</p>
+                                <div class="price__button--arrow"></div>
+                            </button>
+                        </div>
+                    </div>
+
+            </div>
+            <div class="comercial-page">
+                <p class="price-text text__gray">Все цены указаны с учетом НДС.
+                    Стоимость ремонта указана на единичную услугу.
+                    Для получения коммерческого предложения на постоянное
+                    обслуживание, оставьте заявку.
+                </p>
+                <div class="price-comercial">
+                    <p class="price-comercial-text block__text--size--m">Получить коммерческое предложение
+                        <img src="../img/ic/redArrow.svg" alt="" style="margin-left: 5px"></p>
+
+                </div>
+            </div>
+            <div class="footer">
+                <p class="text__gray footer__developers">© 2019 CPS <br>
+                    Разработано командой Apesong </p>
+                <p class="text__gray footer__political">Политика конфиденциальности</p>
+                <p class="text__gray footer__info-text">Информация, размещенная на данной странице, не является публичной офертой</p>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
