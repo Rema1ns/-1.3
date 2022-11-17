@@ -305,6 +305,9 @@
   }
 
   .main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1120px;
     width: 100%;
   }
 
@@ -526,8 +529,8 @@
 .transform-slide {
   -webkit-animation-name: slide-to-right;
           animation-name: slide-to-right;
-  -webkit-animation-duration: 150ms;
-          animation-duration: 150ms;
+  -webkit-animation-duration: 250ms;
+          animation-duration: 250ms;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
 }
@@ -552,8 +555,8 @@
 .transform-slide-remove {
   -webkit-animation-name: slide-to-left;
           animation-name: slide-to-left;
-  -webkit-animation-duration: 150ms;
-          animation-duration: 150ms;
+  -webkit-animation-duration: 250ms;
+          animation-duration: 250ms;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
   -webkit-animation-fill-mode: forwards;
@@ -1374,6 +1377,57 @@ textarea.form__input {
     top: 70px;
   }
 }
+@-webkit-keyframes modal-slide {
+  from {
+    transform: translateX(320px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+@keyframes modal-slide {
+  from {
+    transform: translateX(320px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+.modal-slide {
+  -webkit-animation-name: modal-slide;
+          animation-name: modal-slide;
+  -webkit-animation-duration: 250ms;
+          animation-duration: 250ms;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes modal-slide-remove {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(320px);
+  }
+}
+
+@keyframes modal-slide-remove {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(320px);
+  }
+}
+.modal-slide-remove {
+  -webkit-animation-name: modal-slide-remove;
+          animation-name: modal-slide-remove;
+  -webkit-animation-duration: 250ms;
+          animation-duration: 250ms;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
 .form-call {
   position: fixed;
   right: 0%;
