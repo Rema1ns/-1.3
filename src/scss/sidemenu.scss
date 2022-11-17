@@ -22,7 +22,7 @@
 
 .transform-slide {
     animation-name: slide-to-right;
-    animation-duration: 150ms;
+    animation-duration: 250ms;
     animation-timing-function: linear;
 }
 @keyframes slide-to-left {
@@ -32,7 +32,7 @@
 
 .transform-slide-remove {
     animation-name: slide-to-left;
-    animation-duration: 150ms;
+    animation-duration: 250ms;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 }

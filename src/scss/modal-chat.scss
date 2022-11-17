@@ -111,3 +111,26 @@ textarea.form__input {
     top: 70px;
   }
 }
+
+//---------------------------------------------//
+@keyframes modal-slide {
+  from {transform: translateX(320px);}
+  to {transform: translateX(0px);}
+}
+
+.modal-slide {
+  animation-name: modal-slide;
+  animation-duration: 250ms;
+  animation-timing-function: linear;
+}
+@keyframes modal-slide-remove {
+  from {transform: translateX(0px);}
+  to {transform: translateX(320px);}
+}
+
+.modal-slide-remove {
+  animation-name: modal-slide-remove;
+  animation-duration: 250ms;
+  animation-timing-function: linear;
+}
+
