@@ -1,0 +1,220 @@
+
+.button_show_all {
+  height: 24px;
+  margin: 16px;
+  margin-bottom: 0px;
+  margin-left: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.brand__text_next {
+  margin: 0px;
+}
+
+@media (max-width: 769px) {
+  .brands__button--open, .brands__button--close {
+    display: none;
+  }
+  .brands-window__open {
+    display: none;
+  }
+  .brands__for-pc-version {
+    display: block;
+  }
+  .brands__for-pc-version--open {
+    display: none;
+  }
+
+}
+@media (min-width: 769px) {
+  .brands__background {
+    width: 224px;
+    height: 72px;
+    background-color: white;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    margin: 0px 24px 16px 0px;
+  }
+  .content-area {
+    width: 100%;
+    height: 190px;
+    padding: 24px 24px 24px 24px;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+
+  .brands-window__open {
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+
+  .brands__background {
+    width: 212px;
+  }
+
+  .brands__for-pc-version {
+    display: block;
+    width: 100%;
+    height: 362px;
+    background-color: #F2F2F2;
+  }
+  .brands__for-pc-version--open {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: #F2F2F2;
+  }
+
+  .brands__button--open {
+    display: flex;
+    width: 203px;
+    height: 24px;
+    margin: 24px 0 34px 39px;
+    border: none;
+    background: none;
+  }
+  .brands__button--close {
+    display: flex;
+    width: 203px;
+    height: 24px;
+    margin: 24px 0 34px 39px;
+    border: none;
+    background: none;
+  }
+
+
+  .brands__button--arrow--open {
+    margin-right: 16px;
+    width: 8px;
+    height: 11px;
+    background-image: url("../img/ic/icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .brands__button--arrow--close {
+    align-self: center;
+    margin-right: 16px;
+    width: 8px;
+    height: 11px;
+    background-image: url("../img/ic/icon.svg");
+    transform: rotate(180deg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+}
+
+@media (min-width: 1440px) {
+
+  .brands__background {
+    width: 235px;
+    height: 72px;
+    background-color: white;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    margin: 0px 32px 16px 0px;
+  }
+
+  .content-area {
+    width: 100%;
+    height: 190px;
+
+    padding: 24px 32px 32px 32px;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+
+  .brands-window__open {
+    padding: 24px 32px 24px 32px;
+    width: 100%;
+    height: 270px;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+
+  .brands__for-pc-version {
+    display: block;
+    width: 100%;
+    height: 372px;
+    background-color: #F2F2F2;
+  }
+  .brands__for-pc-version--open {
+    display: none;
+    width: 100%;
+    height: 462px;
+    background-color: #F2F2F2;
+  }
+
+  .brands__button--open {
+    display: flex;
+    width: 203px;
+    height: 24px;
+    margin: 24px 0 34px 39px;
+    border: none;
+    background: none;
+  }
+  .brands__button--close {
+    display: flex;
+    width: 203px;
+    height: 24px;
+    margin: 24px 0 34px 39px;
+    border: none;
+    background: none;
+  }
+
+
+  .brands__button--arrow--open {
+    margin-right: 16px;
+    width: 8px;
+    height: 11px;
+    background-image: url("../img/ic/icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .brands__button--arrow--close {
+    align-self: center;
+    margin-right: 16px;
+    width: 8px;
+    height: 11px;
+    background-image: url("../img/ic/icon.svg");
+    transform: rotate(180deg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+}
+
+.brands__header {
+  border-top: 1px solid #41F6D7;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 56px;
+  padding: 16px 0 0 32px;
+}
+@media (max-width: 769px) {
+  .brands__header {
+    padding-left: 16px;
+  }
+}
